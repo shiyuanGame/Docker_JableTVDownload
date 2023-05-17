@@ -5,7 +5,8 @@ ENV URL="1"
 RUN apt update && apt install git -y
   
 # get JableTVDownload source code
-RUN git clone https://github.com/Road-tech/JableTVDownload.git /root/JableTVDownload 
+# RUN git clone https://github.com/Road-tech/JableTVDownload.git /root/JableTVDownload 
+RUN git clone https://github.com/shiyuanGame/JableTVDownload.git /root/JableTVDownload
 
 #RUN mkdir /root/JableTVDownload && cd /root/JableTVDownload \
 #	&& wget -O JableTVDownload.tar.gz https://github.com/hcjohn463/JableTVDownload/archive/refs/heads/main.tar.gz \
