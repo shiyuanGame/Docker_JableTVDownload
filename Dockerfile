@@ -3,7 +3,7 @@ FROM python:3.8-slim
 ENV URL="1" 
 
 RUN apt update && apt install git -y
-  
+
 # get JableTVDownload source code
 # RUN git clone https://github.com/Road-tech/JableTVDownload.git /root/JableTVDownload 
 RUN git clone https://github.com/shiyuanGame/JableTVDownload.git /root/JableTVDownload
@@ -17,8 +17,8 @@ WORKDIR /root/JableTVDownload/
 
 RUN cd /root/JableTVDownload/ \
     && pip install -r requirements.txt \
-	&& pip install selenium \
-	&& apt install chromium-driver -y
+    && pip install selenium \
+    && apt install chromium-driver -y
 
 ENV TZ="Asia/Shanghai"
 
