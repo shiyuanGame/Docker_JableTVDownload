@@ -8,6 +8,15 @@
 
 `docker run -v /Your/download/dir:/data -e URL="https://jable.tv/videos/ssis-XXX/" shiyuangame/jabletv:main`
 
+补充：
+
+- 严禁用户将本软件使用于商业和个人其他意图
+- 用户在使用本软件前，请用户了解并遵守当地法律法规，如果本软件使用过程中存在违反当地法律法规的行为，请勿使用该软件
+- 用户在使用本软件时，若用户在当地产生一切违法行为由用户承担
+- 本软件仅供技术交流，学术交流使用
+- 本软件不提供任何影片下载的线索
+- 若用户不同意上述条款任意一条，请勿使用本软件
+
 ------------------------------分割线---------------------------------
 
 [JableTVDownload](https://github.com/hcjohn463/JableTVDownload) 是一款由[hcjohn463](https://github.com/hcjohn463)使用 python 开发的 JableTV 下载器。
