@@ -6,7 +6,9 @@
 
 使用教程
 
-`docker run -v /Your/download/dir:/data -e URL="`
+```docker
+docker run -v /Your/download/dir:/data -e URL="[https://jable.tv/videos/ssis-XXX/](https://jable.tv/videos/ssis-XXX/)" shiyuangame/jabletv:main
+```
 
 ------------------------------分割线---------------------------------
 
