@@ -6,7 +6,7 @@
 
 使用教程
 
-`docker run -v /Your/download/dir:/data -e URL="https://jable.tv/videos/ssis-XXX/" shiyuangame/jabletv`
+`docker run --rm  -v /Your/download/dir:/data -e URL="https://jable.tv/videos/ssis-XXX/" shiyuangame/jabletv`
 
 补充：
 
